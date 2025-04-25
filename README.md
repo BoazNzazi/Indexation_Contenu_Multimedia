@@ -52,7 +52,7 @@ indexation-sift-dhash/
 ### 1️⃣ Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre_utilisateur/indexation-sift-dhash.git
+git clone https://github.com/BoazNzazi/Indexation_Contenu_Multimedia.git
 cd indexation-sift-dhash
 ```
 
