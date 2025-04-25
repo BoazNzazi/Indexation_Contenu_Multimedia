@@ -1,17 +1,21 @@
+# Indexation_Contenu_Multim-dia
 # 📄🔍 Système d'Indexation de Documents par SIFT + dHash
 
-Ce projet présente une application Streamlit permettant d’identifier automatiquement un document à partir d’une vidéo contenant une portion de texte.  
+Ce projet présente une application permettant de rechercher automatiquement un document à partir d’une vidéo contenant une portion de texte de ce document(image).  
 L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse aux transformations) et d’un hachage perceptuel (dHash) pour un filtrage rapide.
 
-## 🎯 Objectif
 
+![Alt text](capture/capture4.png)
+
+## 🎯 Objectif
+Ce système permet de :
 - Extraire une frame d’une vidéo contenant un document.
 - Identifier automatiquement le document correspondant dans une base d’images.
 - Localiser précisément la zone du texte détecté dans l’image reconnue.
 
-## 🧠 Technologies utilisées
+## 🤖 Technologies utilisées
 
-- **Python**
+- **Python** : Comme  langage de programmation pour coder le système.
 - **OpenCV** : pour le traitement d’images et l’extraction des keypoints/descripteurs SIFT.
 - **dHash (difference hashing)** : pour l’indexation rapide des images par similarité visuelle.
 - **Streamlit** : pour une interface web interactive, simple et efficace.
@@ -29,8 +33,67 @@ L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse
 8. **Affichage des résultats avec les hash et visualisation encadrée**
 
 
-🧪 Auteurs
+## ⚙️ Structure des données
 
-    👨‍💻 LUTALA LUSHULI David
 
-    👨‍💻 NZAZI NGABILA Boaz
+```bash
+indexation-sift-dhash/
+├── images/              # Base d'images (documents)
+├── requetes/            # Vidéos de test .mp4
+├── captures/            # Captures d'écran pour README
+├── TpIndexation_Groupe3.py   # Code Streamlit principal
+├── requirements.txt
+└── README.md
+```
+
+
+## 🚀 Installation et exécution
+
+### 1️⃣ Cloner le dépôt
+
+```bash
+git clone https://github.com/votre_utilisateur/indexation-sift-dhash.git
+cd indexation-sift-dhash
+```
+
+### 2️⃣ Créer un environnement virtuel (recommandé)
+```bash
+python -m venv env
+```
+# Pour Windows
+```bash
+env\Scripts\activate
+```
+# Pour Linux/macOS
+```bash
+source env/bin/activate
+```
+### 3️⃣ Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
+### 4️⃣ Lancer l'application sur Streamlit
+```bash
+streamlit run TpIndexation_Groupe3.py
+```
+
+## 🔍 Exemple d’utilisation
+
+![Alt text](captures/capture1.png)
+
+*Page d'accueil*
+
+![Alt text](captures/capture2.png)
+
+*Frame extraite*
+
+![Alt text](captures/capture3.png)
+
+*Document reconnu*
+
+
+## 👥 Auteurs
+👨‍💻 LUTALA LUSHULI David, davidlutala0@gmail.com
+
+
+👨‍💻 NZAZI NGABILA Boaz, nzaziboaz@gmail.com
