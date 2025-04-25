@@ -53,7 +53,7 @@ indexation-sift-dhash/
 
 ```bash
 git clone https://github.com/BoazNzazi/Indexation_Contenu_Multimedia.git
-cd indexation-sift-dhash
+cd Indexation_Contenu_Multimedia
 ```
 
 ### 2️⃣ Créer un environnement virtuel (recommandé)
