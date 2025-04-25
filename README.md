@@ -79,15 +79,15 @@ streamlit run TpIndexation_Groupe3.py
 
 ## 🔍 Exemple d’utilisation
 
-![Alt text](captures/capture1.png)
+![Alt text](capture/capture1.png)
 
 *Page d'accueil*
 
-![Alt text](captures/capture2.png)
+![Alt text](capture/capture2.png)
 
 *Frame extraite*
 
-![Alt text](captures/capture3.png)
+![Alt text](capture/capture3.png)
 
 *Document reconnu*
 
